@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from 'react'
+import useServices from '../../hooks/useServices';
 
 
 
 
 function Service() {
 
-    const [services, setServices] = useState([])
-    useEffect(() => {
-        fetch('service.json')
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, [])
+    const [services, setServices] = useServices();
+    
     console.log(services)
     return (
         <div>

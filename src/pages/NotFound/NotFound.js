@@ -1,16 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import Reac from 'react'
+import img from "../../assets/images/notfound.jpg"
 
 function NotFound() {
-    const [services, setServices] = useState([])
-    useEffect(() => {
-        fetch('service.json')
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, [])
-    console.log(services)
     return (
-        <div>
-            <h1>404 page</h1>
+        <div className="mt-5 mb-5 text-center">
+            <img src={img} alt="not found" />
         </div>
     )
 }

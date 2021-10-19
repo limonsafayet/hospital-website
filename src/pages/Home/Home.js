@@ -4,13 +4,15 @@ import Banner from '../../components/Banner/Banner';
 import HomePageService from '../../components/HomePageService/HomePageService';
 import NumberSection from '../../components/NumberSection/NumberSection';
 import WhyChooseUs from '../../components/WhyChooseUs/WhyChooseUs';
+import useServices from '../../hooks/useServices';
 function Home() {
-    const [services, setServices] = useState([])
+    /* const [services, setServices] = useState([])
     useEffect(() => {
         fetch('service.json')
             .then(res => res.json())
             .then(data => setServices(data));
-    }, [])
+    }, []) */
+    const [services, setServices] = useServices();
     return (
         <div id="home">
             <Banner></Banner>
