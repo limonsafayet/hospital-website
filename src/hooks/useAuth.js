@@ -1,11 +1,11 @@
 import React from 'react'
 
-function NotFound() {
+function useAuth() {
     return (
         <div>
-            <h1>404 page</h1>
+
         </div>
     )
 }
 
-export default NotFound
+export default useAuth
