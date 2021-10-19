@@ -10,7 +10,7 @@ function Header() {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
+            <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg" >
                 <Container>
                     <Navbar.Brand as={Link} to="/"><img src={logo} alt="LS Hospital Ltd" /> LS Hospital Ltd.</Navbar.Brand>
                     <Navbar.Toggle />
