@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from './pages/Home/Home';
 import { NotFound } from 'http-errors';
-import Login from './pages/Login/Login/Login';
+import Login from './pages/Login/Login';
 
 import Layout from './layout/Layout';
 import AuthProvider from './contexts/AuthProvider';

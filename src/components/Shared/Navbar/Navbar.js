@@ -11,19 +11,20 @@ function Header() {
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
-                    <Navbar.Brand href="#home"><img src={logo} alt="LS Hospital Ltd" /> LS Hospital Ltd.</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><img src={logo} alt="LS Hospital Ltd" /> LS Hospital Ltd.</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#experts">Experts</Nav.Link>
-                        <Nav.Link as={Link} to="/login">Login</Nav.Link>
-                        {/* {user?.email ?
+                        {user?.email ?
                             <Button onClick={logOut} variant="light">Logout</Button> :
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>}
-                        <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text> */}
+                        {user?.displayName ?
+                            <Navbar.Text>
+                                Signed in as: <a href="#login">{user?.displayName}</a>
+                            </Navbar.Text> : ""
+                        }
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
