@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Anika Rahman",
+        "specialty":"Associate Consultant, Cardiac Surgery",
+        "degree":"MBBS, MS (Cardio-Vascular & Thoracic Surgery)",
+        "img": "https://i.imgur.com/Z5ZQgkH.png"
+
+    },
+    {
+        "id": 2,
+        "name": "Prof. Dr. Jalal Uddin",
+        "specialty":"Senior Consultant, Cardiac Surgery",
+        "degree":" MBBS, MS (Cardiovascular Surgery)",
+        "img": "https://i.imgur.com/XOBnYux.png"
+
+    },
+    {
+        "id": 3,
+        "name": "Dr. Rashida Manwar",
+        "specialty":"Associate Consultant, Cardiology",
+        "degree":"MBBS, D. Card (London), Msc Cardiology (UK)",
+        "img": "https://i.imgur.com/xAm1lSi.png"
+
+    },
+    {
+        "id": 4,
+        "name": "Dr. Sharia Zaman",
+        "specialty":"Senior Consultant, Interventional Cardiology",
+        "degree":"MBBS (Dhaka), MD CARD. (NICVD)",
+        "img": "https://i.imgur.com/j4bt5d5.png"
+
+    },
+    {
+        "id": 5,
+        "name": "Dr. Syeda Ishrat Jahan",
+        "specialty":"Consultant, Dermatology",
+        "degree":"MBBS, DEM",
+        "img": "https://i.imgur.com/j44uQIY.png"
+
+    },
+    {
+        "id": 6,
+        "name": "Dr. Pratik Dewan",
+        "specialty":"Consultant, Medicine and Endocrinology",
+        "degree":"MBBS, DEM, MD (Internal Medicine)",
+        "img": "https://i.imgur.com/vk4vUoc.png"
+
+    },
+    {
+        "id": 7,
+        "name": "Prof. Dr. Md. Hasan Masud",
+        "specialty":"Senior Consultant– Gastroenterology",
+        "degree":"MBBS, MD (Gastroenterology)",
+        "img": "https://i.imgur.com/6E8ZgPq.png"
+
+    },
+    {
+        "id": 8,
+        "name": "Dr. Shihan Mahmud",
+        "specialty":"Associate Consultant, Internal Medicine",
+        "degree":"MBBS, MRCP (UK)",
+        "img": "https://i.imgur.com/QDDGx1P.png"
+
+    },
+    {
+        "id": 9,
+        "name": "Dr. Tasnova Mahin",
+        "specialty":"Associate Consultant, Internal Medicine",
+        "degree":"MBBS, FCPS (Medicine), MRCP",
+        "img": "https://i.imgur.com/2R5RS2F.png"
+
+    },
+    {
+        "id": 10,
+        "name": "Dr. A M Rejaus Satter",
+        "specialty":"Consultant, Neurosurgery",
+        "degree":"MBBS, FCPS (Surgery), MS (Neurosurgery)",
+        "img": "https://i.imgur.com/uwFrXkc.png"
+
+    },
+    {
+        "id": 11,
+        "name": "Dr. Md. O.F.G Kibria",
+        "specialty":"Senior Consultant, Orthopedics",
+        "degree":"MBBS, MS (Orthopedic)",
+        "img": "https://i.imgur.com/C5qALkQ.png"
+
+    },
+    {
+        "id": 12,
+        "name": "Prof. Dr. N. I. Bhuiyan",
+        "specialty":"Consultant, Urology",
+        "degree":"MBBS, MS (Urology)",
+        "img": "https://i.imgur.com/5jyWN32.png"
+
+    }
+]

@@ -7,6 +7,8 @@ import Layout from './layout/Layout';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Service from './pages/Service/Service';
+import Doctors from "./pages/Doctors/Doctors";
+import ContactUs from "./pages/ContactUs/ContactUs";
 function App() {
   return (
     <>
@@ -19,6 +21,12 @@ function App() {
               </Route>
               <Route path="/home">
                 <Home></Home>
+              </Route>
+              <Route path="/doctors" exact>
+                <Doctors></Doctors>
+              </Route>
+              <Route path="/contact-us" exact>
+                <ContactUs></ContactUs>
               </Route>
               <Route path="/login" exact>
                 <Login></Login>

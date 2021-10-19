@@ -56,7 +56,7 @@ function WhyChooseUs() {
                                 <div className="accordion-body">
                                     <p>For appointment, emergency, billing & information: 1123 <br />
                                         Land phone: +88 02 8145682 <br />
-                                        Mobile no.: +88 01713377755 <br />
+                                        Mobile no: +88 01713377755 <br />
                                         24-hour emergency & ambulance service:  +88 01713377755 <br />
                                         Email: info@lshospital.com </p>
                                 </div>
