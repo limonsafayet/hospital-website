@@ -1,11 +1,27 @@
-import React from 'react'
-import { useParams } from 'react-router';
+import React, { useState, useEffect } from 'react'
+
+
+
 
 function Service() {
-    const { serviceId } = useParams();
+
+    const [services, setServices] = useState([])
+    useEffect(() => {
+        fetch('service.json')
+            .then(res => res.json())
+            .then(data => setServices(data));
+    }, [])
+    console.log(services)
     return (
         <div>
-            <h2>this is booking: {serviceId}</h2>
+            {
+                //console.log(services)
+            }
+            {/*  {
+                services.filter(service => service.slug === slug).map(filteredService => (
+                    <h2>{filteredService.name}</h2>
+                ))
+            } */}
         </div>
     );
 }

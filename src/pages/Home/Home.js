@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Container, Row } from 'react-bootstrap';
 import Banner from '../../components/Banner/Banner';
 import HomePageService from '../../components/HomePageService/HomePageService';
+import NumberSection from '../../components/NumberSection/NumberSection';
 import WhyChooseUs from '../../components/WhyChooseUs/WhyChooseUs';
 function Home() {
     const [services, setServices] = useState([])
@@ -15,7 +16,7 @@ function Home() {
             <Banner></Banner>
             <WhyChooseUs></WhyChooseUs>
             <Container>
-                <Row className="mt-5" id="services">
+                <Row className="mt-5 mb-5" id="services">
                     <h2 className="mt-5 text-center text-primary">Our Services</h2>
                     {
                         services.map(service => <HomePageService
@@ -25,6 +26,7 @@ function Home() {
                     }
                 </Row>
             </Container>
+            <NumberSection></NumberSection>
         </div>
     )
 }
