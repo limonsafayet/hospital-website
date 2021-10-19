@@ -4,21 +4,11 @@ import useServices from '../../hooks/useServices';
 
 
 
-function Service() {
+function Service({location: {state}}) {
 
-    const [services, setServices] = useServices();
-    
-    console.log(services)
-    return (
+      return (
         <div>
-            {
-                //console.log(services)
-            }
-            {/*  {
-                services.filter(service => service.slug === slug).map(filteredService => (
-                    <h2>{filteredService.name}</h2>
-                ))
-            } */}
+           <h2>{state.name}</h2>
         </div>
     );
 }
