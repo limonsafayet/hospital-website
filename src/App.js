@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from './pages/Home/Home';
 import { NotFound } from 'http-errors';
@@ -6,6 +5,8 @@ import Login from './pages/Login/Login';
 
 import Layout from './layout/Layout';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Service from './pages/Service/Service';
 function App() {
   return (
     <>
@@ -13,12 +14,18 @@ function App() {
         <Router>
           <Layout>
             <Switch>
-              <Route path="/" exact>
+              <Route exact path="/">
+                <Home></Home>
+              </Route>
+              <Route path="/home">
                 <Home></Home>
               </Route>
               <Route path="/login" exact>
                 <Login></Login>
               </Route>
+              <PrivateRoute path="/service/:serviceId">
+                <Service></Service>
+              </PrivateRoute>
               <Route path="*">
                 <NotFound></NotFound>
               </Route>

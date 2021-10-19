@@ -1,6 +1,7 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useState, useEffect } from 'react';
 import initializeAuthentication from '../components/Firebase/firebase.init';
+import Swal from 'sweetalert2'
 
 initializeAuthentication();
 
@@ -18,6 +19,13 @@ const useFirebase = () => {
             .then(result => {
                 setUser(result.user);
             })
+            .catch(error => {
+                Swal.fire(
+                    'Error!',
+                    error.message,
+                    'error'
+                )
+            })
             .finally(() => setIsLoading(false));
     }
 
@@ -25,6 +33,13 @@ const useFirebase = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setUser(result.user);
+            })
+            .catch(error => {
+                Swal.fire(
+                    'Error!',
+                    error.message,
+                    'error'
+                )
             })
             .finally(() => setIsLoading(false));
     }
@@ -35,7 +50,13 @@ const useFirebase = () => {
                 setUser(result.user);
                 setUserName(name)
             })
-            .catch(error => alert(error.message))
+            .catch(error => {
+                Swal.fire(
+                    'Error!',
+                    error.message,
+                    'error'
+                )
+            })
             .finally(() => setIsLoading(false));
     }
     const setUserName = (name) => {
