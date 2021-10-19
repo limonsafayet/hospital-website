@@ -22,7 +22,7 @@ function NumberSection() {
 
                     <h3> <i className="fas fa-user-md"></i></h3>
                     <h1> 3,000 </h1>
-                    <h3> Consultation Rooms </h3>
+                    <h3> Number of Staffs </h3>
                 </Col>
             </Row>
 
