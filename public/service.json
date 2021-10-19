@@ -1,0 +1,38 @@
+[
+    {
+        "slug":"intensive-care-centre",
+        "name":"Intensive Care Centre",
+        "description":"The ICU is concerned with the provision of life support or organ support system in patient who critically ill and who usually require intensive monitoring in a highly vigilant environment. The general ICU, located on the 4th floor, has 20 beds which include two isolation rooms. We are capable of providing dialysis service to critically ill patients inside ICU. Six channel bedside monitors, ultra sophisticated ventilators, defibrillators as well as 16 channel central monitoring system with continuous recording capabilities are in place for all patients. In addition the patients are being cared by team of highly efficient healthcare professionals. One dedicated nurse to one and three tiers of experienced ICU physicians (Intensivists) ensure round the clock adequate and continuous care of each and every patients.",
+        "img":"https://i.imgur.com/GyW5536.png"
+    },
+    {
+        "slug":"heart-centre",
+        "name":"Heart Centre",
+        "description":"LS Heart Centre is where skill and modern technology meet to save and improve lives of both the young and old. From life saving cardiac surgeries to high –tech interventional cardiology –our team of specialist cover the full spectrum of heart diseases with skill and precision. All types of Cardiac Surgeries, including but not limited to-Open Heart Surgeries, By-pass Surgeries, Redo CABG, All types of Valve replacement & repair, Coronary Artery Reconstruction Surgery, Congenital Heart Surgeries and Major Vascular Surgeries. State –of –the art cardiac operation theatres with experienced and trained OT Personal.",
+        "img":"https://i.imgur.com/Jgx0fIb.png"
+    },
+    {
+        "slug":"emergency-centre",
+        "name":"Emergency Centre",
+        "description":"LS Hospital Emergency Room (ER) provides non-stop life-saving care when required, 24 hours a day, seven days a week. ER has got all the life saving support for critically ill patients including ventilators and defibrillators. All doctors and nurses are specially trained to deal with all types of emergency patients. LS Hospital ER has fully equipped top of the line Mercedes Benz ambulance services with specially trained staffs. We also have our own LS Air Ambulance service, with brand new Bell 407 helicopter loaded with all life-saving equipments, to transport patients from any corner of the country. Patients get a fully integrated emergency care at LS Hospital Emergency Room. ",
+        "img":"https://i.imgur.com/aeYlqPz.png"
+    },
+    {
+        "slug":"fertility-centre",
+        "name":"Fertility Centre",
+        "description":"LS fertility Centre (SFC) aims to offer a comprehensive range of fertility treatment and special expertise to assist couples in the best possible way. Our center is specially designed by experienced specialist with latest technology. Our Centre has an experienced team of doctors, nurses, embryologist and technicians trained in Singapore and India. We fully understand the needs of individual couples facing fertility treatment and seek to respond in a professional and supportive manner. We offer the latest and proven scientific and medical skills currently available within this field. We fully appreciate the stresses and anxieties associated with fertility treatment and offer easy access for couples undergoing treatment to provide information, understanding and emotional support when most needed. Our services range from simple fertility, investigation to highly sophisticated treatment.",
+        "img":"https://i.imgur.com/JYGhpR2.png"
+    },
+    {
+        "slug":"kidney-and-dialysis-centre",
+        "name":"Kidney & Dialysis Centre",
+        "description":"With the aim “Kidney, we care” SHL Kidney and Dialysis Centre offers comprehensive care for with kidney disease and urinary tract problems. The renal team provides diagnostic and treatment service for with disease affecting kidney including ultrasonography guided real time kidney biopsy, central venous dialysis catheter placement. The centre also provides renal replacement therapy in the form of hemodialysis and peritoneal dialysis. The LS Kidney and Dialysis Centre comprise a 3-beded hemodialysis unit specially designed for children, pediatric ward and full time outpatient clinic (OPD). ",
+        "img":"https://i.imgur.com/LRgcvsD.png"
+    },
+    {
+        "slug":"diet-and-nutrition-centre",
+        "name":"Diet & Nutrition Centre",
+        "description":"Healthy living is a long term commitment. There are steps you can take right now that will make today healthier than yesterday and pave the way to a healthy living tomorrow. If you have a chronic health condition or want to improve your eating habits for your own personal and physical well being, we have the expertise and the programs in place to help you do it. At LS HOSPITAL we have Diet & Nutrition Centre with experienced Dieticians who will provide Diet Chart and Diet counseling according to the physical condition or as per the advice of treating consultant.Dieticians have extensive experience handling complicated, critical issues like weight management and nutrition concerns facing renal, gastrointestinal, cardiac and pediatric patients as well as those with Diabetes.",
+        "img":"https://i.imgur.com/RBhTOzz.png"
+    }
+]

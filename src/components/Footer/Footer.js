@@ -34,9 +34,6 @@ function Footer() {
                     <a href="#" className="me-4 text-reset">
                         <i className="fab fa-linkedin"></i>
                     </a>
-                    <a href="#" className="me-4 text-reset">
-                        <i className="fab fa-github"></i>
-                    </a>
                 </div>
 
             </section>
