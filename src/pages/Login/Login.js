@@ -37,6 +37,7 @@ function Login() {
 
         if (isLogin) {
             processLogin(email, password);
+
         }
         else {
             registerNewUser(email, password, name);
