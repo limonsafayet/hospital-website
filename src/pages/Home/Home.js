@@ -12,7 +12,7 @@ function Home() {
             .then(res => res.json())
             .then(data => setServices(data));
     }, []) */
-    const [services, setServices] = useServices();
+    const [services] = useServices();
     return (
         <div id="home">
             <Banner></Banner>

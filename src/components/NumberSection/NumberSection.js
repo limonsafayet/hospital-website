@@ -5,7 +5,7 @@ function NumberSection() {
     return (
         <div>
 
-            <Row className="mt-5 mb-5 bg-dark text-light text-center">
+            <Row className="mt-5 mb-5 bg-dark text-light text-center mx-0">
                 <Col xs={12} md={4} className="mx-auto p-4">
 
                     <h3> <i className="fas fa-trophy"></i></h3>
