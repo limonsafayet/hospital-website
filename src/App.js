@@ -23,12 +23,8 @@ function App() {
               <Route path="/home">
                 <Home></Home>
               </Route>
-              <Route path="/doctors" exact>
-                <Doctors></Doctors>
-              </Route>
-              <Route path="/contact-us" exact>
-                <ContactUs></ContactUs>
-              </Route>
+              <PrivateRoute path="/doctors" exact component={Doctors} />
+              <PrivateRoute path="/contact-us" exact component={ContactUs} />
               <Route path="/login" exact>
                 <Login></Login>
               </Route>
