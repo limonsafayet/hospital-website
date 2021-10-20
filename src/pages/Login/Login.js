@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from "react";
 import { Col, Container, Row } from 'react-bootstrap';
+import { Redirect } from 'react-router-dom'
 import useAuth from '../../hooks/useAuth';
 function Login() {
-    const { signInUsingGoogle, processLogin, registerNewUser } = useAuth();
+    const { signInUsingGoogle, processLogin, registerNewUser, isLoading } = useAuth();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -37,7 +38,6 @@ function Login() {
 
         if (isLogin) {
             processLogin(email, password);
-
         }
         else {
             registerNewUser(email, password, name);
@@ -45,7 +45,9 @@ function Login() {
 
     }
 
+
     return (
+
         <Container>
             <Row>
                 <Col xs={10} md={6} className="mx-auto mt-5 mb-5 card p-5 shadow-lg">
@@ -95,8 +97,6 @@ function Login() {
             </Row>
 
         </Container>
-
-
     )
 }
 
